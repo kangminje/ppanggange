@@ -15,7 +15,8 @@ public class ScoreTriger : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-
+		GameObject.Find ("ScoreBord").GetComponent<ScoreBord> ().score += 1;
+		Debug.Log ("gol");
 
 	}
 }

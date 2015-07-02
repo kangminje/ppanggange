@@ -7,7 +7,7 @@ public class moveBox : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		speed = 1.0f;
+		speed = 0.5f;
 		front = true;
 	}
 	

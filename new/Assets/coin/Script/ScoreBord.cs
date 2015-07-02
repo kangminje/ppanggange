@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ScoreBord : MonoBehaviour {
-	private int score;
+	public int score;
 
 
 	// Use this for initialization
@@ -10,8 +10,9 @@ public class ScoreBord : MonoBehaviour {
 		score = 0;
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	void OnGUI(){
+		GUI.Label (new Rect (80, 300, Screen.width, Screen.height), 
+		           "Score : " + score.ToString());
+		       
 	}
 }

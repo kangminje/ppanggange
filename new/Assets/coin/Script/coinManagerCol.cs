@@ -8,7 +8,7 @@ public class coinManagerCol : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		AutoGeneration ();
-		autoCoinCount = 0;
+		autoCoinCount = 100;
 
 		this.StartCoroutine ("AutoGeneration");
 	
@@ -23,7 +23,7 @@ public class coinManagerCol : MonoBehaviour {
 			RaycastHit hitObj;
 			if(	Physics.Raycast(ray,out hitObj)){
 				Instantiate (coin,new Vector3(hitObj.point.x,1.0f,hitObj.point.z)
-				             ,Quaternion.identity);
+				             ,Random.rotation);
 			}
 		}
 	}
