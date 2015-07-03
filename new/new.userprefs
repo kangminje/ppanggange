@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\coin\Script\coinManagerCol.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\FriWork2\Assets\prefabs\joint.cs">
     <Files>
-      <File FileName="Assets\coin\Script\moveBox.cs" Line="13" Column="2" />
-      <File FileName="Assets\coin\Script\coinManagerCol.cs" Line="11" Column="22" />
-      <File FileName="Assets\coin\Script\ScoreTriger.cs" Line="18" Column="71" />
-      <File FileName="Assets\coin\Script\ScoreBord.cs" Line="11" Column="3" />
+      <File FileName="..\FriWork2\Assets\prefabs\joint.cs" Line="28" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
